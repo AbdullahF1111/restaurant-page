@@ -136,7 +136,7 @@ eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpa
   \**********************/
 (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _home_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home.js */ \"./src/home.js\");\n/* harmony import */ var _menu_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./menu.js */ \"./src/menu.js\");\n/* harmony import */ var _contact_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./contact.js */ \"./src/contact.js\");\n\n\n\n\n\nconst content = document.getElementById(\"content\");\n\nfunction switchTab(loader) {\n  content.textContent = \"\";\n  loader();\n}\n\ndocument.getElementById(\"home\").addEventListener(\"click\", () => switchTab(_home_js__WEBPACK_IMPORTED_MODULE_1__.loadHome));\ndocument.getElementById(\"menu\").addEventListener(\"click\", () => switchTab(_menu_js__WEBPACK_IMPORTED_MODULE_2__.loadMenu));\ndocument.getElementById(\"contact\").addEventListener(\"click\", () => switchTab(_contact_js__WEBPACK_IMPORTED_MODULE_3__.loadContact));\n\n(0,_home_js__WEBPACK_IMPORTED_MODULE_1__.loadHome)();//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvaW5kZXguanMiLCJtYXBwaW5ncyI6Ijs7Ozs7QUFBcUI7QUFDZ0I7QUFDQTtBQUNNOztBQUUzQzs7QUFFQTtBQUNBO0FBQ0E7QUFDQTs7QUFFQSwwRUFBMEUsOENBQVE7QUFDbEYsMEVBQTBFLDhDQUFRO0FBQ2xGLDZFQUE2RSxvREFBVzs7QUFFeEYsa0RBQVEiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9yZXN0YXVyYW50LXBhZ2UvLi9zcmMvaW5kZXguanM/YjYzNSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgXCIuL3N0eWxlLmNzc1wiO1xuaW1wb3J0IHsgbG9hZEhvbWUgfSBmcm9tIFwiLi9ob21lLmpzXCI7XG5pbXBvcnQgeyBsb2FkTWVudSB9IGZyb20gXCIuL21lbnUuanNcIjtcbmltcG9ydCB7IGxvYWRDb250YWN0IH0gZnJvbSBcIi4vY29udGFjdC5qc1wiO1xuXG5jb25zdCBjb250ZW50ID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoXCJjb250ZW50XCIpO1xuXG5mdW5jdGlvbiBzd2l0Y2hUYWIobG9hZGVyKSB7XG4gIGNvbnRlbnQudGV4dENvbnRlbnQgPSBcIlwiO1xuICBsb2FkZXIoKTtcbn1cblxuZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoXCJob21lXCIpLmFkZEV2ZW50TGlzdGVuZXIoXCJjbGlja1wiLCAoKSA9PiBzd2l0Y2hUYWIobG9hZEhvbWUpKTtcbmRvY3VtZW50LmdldEVsZW1lbnRCeUlkKFwibWVudVwiKS5hZGRFdmVudExpc3RlbmVyKFwiY2xpY2tcIiwgKCkgPT4gc3dpdGNoVGFiKGxvYWRNZW51KSk7XG5kb2N1bWVudC5nZXRFbGVtZW50QnlJZChcImNvbnRhY3RcIikuYWRkRXZlbnRMaXN0ZW5lcihcImNsaWNrXCIsICgpID0+IHN3aXRjaFRhYihsb2FkQ29udGFjdCkpO1xuXG5sb2FkSG9tZSgpOyJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/index.js\n\n}");
+eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _home_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home.js */ \"./src/home.js\");\n/* harmony import */ var _menu_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./menu.js */ \"./src/menu.js\");\n/* harmony import */ var _contact_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./contact.js */ \"./src/contact.js\");\n\n\n\n\n\nconst content = document.getElementById(\"content\");\n\nfunction switchTab(loader) {\n  content.textContent = \"\";\n  loader();\n}\n\ndocument.getElementById(\"home\").addEventListener(\"click\", () => switchTab(_home_js__WEBPACK_IMPORTED_MODULE_1__.loadHome));\ndocument.getElementById(\"menu\").addEventListener(\"click\", () => switchTab(_menu_js__WEBPACK_IMPORTED_MODULE_2__.loadMenu));\ndocument.getElementById(\"contact\").addEventListener(\"click\", () => switchTab(_contact_js__WEBPACK_IMPORTED_MODULE_3__.loadContact));\n\n(0,_home_js__WEBPACK_IMPORTED_MODULE_1__.loadHome)();\n\n\n// After Every Editting\n\n// git checkout gh-pages && git merge main --no-edit\n// npx webpack\n// git add dist -f && git commit -m \"Deployment commit\"\n// git subtree push --prefix dist origin gh-pages\n// git checkout main\n\n// And If Rejected \n// git push origin `git subtree split --prefix dist gh-pages`:gh-pages --force//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvaW5kZXguanMiLCJtYXBwaW5ncyI6Ijs7Ozs7QUFBcUI7QUFDZ0I7QUFDQTtBQUNNOztBQUUzQzs7QUFFQTtBQUNBO0FBQ0E7QUFDQTs7QUFFQSwwRUFBMEUsOENBQVE7QUFDbEYsMEVBQTBFLDhDQUFRO0FBQ2xGLDZFQUE2RSxvREFBVzs7QUFFeEYsa0RBQVE7OztBQUdSOztBQUVBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7O0FBRUE7QUFDQSIsInNvdXJjZXMiOlsid2VicGFjazovL3Jlc3RhdXJhbnQtcGFnZS8uL3NyYy9pbmRleC5qcz9iNjM1Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBcIi4vc3R5bGUuY3NzXCI7XG5pbXBvcnQgeyBsb2FkSG9tZSB9IGZyb20gXCIuL2hvbWUuanNcIjtcbmltcG9ydCB7IGxvYWRNZW51IH0gZnJvbSBcIi4vbWVudS5qc1wiO1xuaW1wb3J0IHsgbG9hZENvbnRhY3QgfSBmcm9tIFwiLi9jb250YWN0LmpzXCI7XG5cbmNvbnN0IGNvbnRlbnQgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZChcImNvbnRlbnRcIik7XG5cbmZ1bmN0aW9uIHN3aXRjaFRhYihsb2FkZXIpIHtcbiAgY29udGVudC50ZXh0Q29udGVudCA9IFwiXCI7XG4gIGxvYWRlcigpO1xufVxuXG5kb2N1bWVudC5nZXRFbGVtZW50QnlJZChcImhvbWVcIikuYWRkRXZlbnRMaXN0ZW5lcihcImNsaWNrXCIsICgpID0+IHN3aXRjaFRhYihsb2FkSG9tZSkpO1xuZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoXCJtZW51XCIpLmFkZEV2ZW50TGlzdGVuZXIoXCJjbGlja1wiLCAoKSA9PiBzd2l0Y2hUYWIobG9hZE1lbnUpKTtcbmRvY3VtZW50LmdldEVsZW1lbnRCeUlkKFwiY29udGFjdFwiKS5hZGRFdmVudExpc3RlbmVyKFwiY2xpY2tcIiwgKCkgPT4gc3dpdGNoVGFiKGxvYWRDb250YWN0KSk7XG5cbmxvYWRIb21lKCk7XG5cblxuLy8gQWZ0ZXIgRXZlcnkgRWRpdHRpbmdcblxuLy8gZ2l0IGNoZWNrb3V0IGdoLXBhZ2VzICYmIGdpdCBtZXJnZSBtYWluIC0tbm8tZWRpdFxuLy8gbnB4IHdlYnBhY2tcbi8vIGdpdCBhZGQgZGlzdCAtZiAmJiBnaXQgY29tbWl0IC1tIFwiRGVwbG95bWVudCBjb21taXRcIlxuLy8gZ2l0IHN1YnRyZWUgcHVzaCAtLXByZWZpeCBkaXN0IG9yaWdpbiBnaC1wYWdlc1xuLy8gZ2l0IGNoZWNrb3V0IG1haW5cblxuLy8gQW5kIElmIFJlamVjdGVkIFxuLy8gZ2l0IHB1c2ggb3JpZ2luIGBnaXQgc3VidHJlZSBzcGxpdCAtLXByZWZpeCBkaXN0IGdoLXBhZ2VzYDpnaC1wYWdlcyAtLWZvcmNlIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/index.js\n\n}");
 
 /***/ },
 
@@ -156,7 +156,7 @@ eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpa
   \******************************/
 (module, __unused_webpack_exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "980c03e830cd9fdfba8f.jpg";
+module.exports = __webpack_require__.p + "2233409504dcc8083d66.jpg";
 
 /***/ },
 
@@ -166,7 +166,7 @@ module.exports = __webpack_require__.p + "980c03e830cd9fdfba8f.jpg";
   \******************************/
 (module, __unused_webpack_exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "607f6d82675382206f2f.jpg";
+module.exports = __webpack_require__.p + "8270ab3c0cb26cdb5161.jpg";
 
 /***/ },
 
@@ -176,7 +176,7 @@ module.exports = __webpack_require__.p + "607f6d82675382206f2f.jpg";
   \******************************/
 (module, __unused_webpack_exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "072f88b5c8f7ab56dde6.jpg";
+module.exports = __webpack_require__.p + "6bfde47d65f47452aef2.jpg";
 
 /***/ },
 
@@ -186,7 +186,7 @@ module.exports = __webpack_require__.p + "072f88b5c8f7ab56dde6.jpg";
   \***********************************/
 (module, __unused_webpack_exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "ac3bfc1fef3266eaa24a.jpg";
+module.exports = __webpack_require__.p + "fd980d59c5088e269db4.jpg";
 
 /***/ }
 
